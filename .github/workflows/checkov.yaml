@@ -1,4 +1,4 @@
-ame: Checkov Github action
+name: Checkov Github action
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Prisma Cloud
     env:
-      PRISMA_API_URL: https://api4.prismacloud.io/
+      PRISMA_API_URL: https://api2.eu.prismacloud.io/
     steps:
       - name: Checkout repo
         uses: actions/checkout@master
