@@ -1,0 +1,11 @@
+const SEC_1 = "ghp_3xyKmc3WL2fVn0GDQ7ksdbfgudbvgf3AfHbV"
+const SEC_2 = "eyJrIjoiNUwyZU7TMmRxQXiusdgfB0ME4zYkhRaTk2STVhR0MiLCJuIjoidGVtcCIsImlkIjoxfQ=="
+const SEC_3 = "dsapi45202d12abdce73c004a9e0be24a21b2"
+const AWS_User=Admin1
+const AWSUser_Password="idsuhgpryusdgfyureg5rgh5gn594g45"
+const CIRCLE_CI = "2065ae463be5e5349643872346578346579776d472"
+const JIRA = "5FP0NmFYz81UeyruigyerogNb42762"
+provider "aws" {
+# checkov:skip=CKV_SECRET_2:bad
+  access_key = "AfgjerdghMPLE"
+  secret_key = "wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMAAAKEY"
